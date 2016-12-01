@@ -22,11 +22,11 @@ The script "run_analysis.R" perform 6 following steps:
 - Merging all data in one set
 
 3. Extracting only the measurements on the mean and standard deviation for each measurement. This include:
-* Reading column names from the merged data set
-* Create vector definning ID, mean and standard deviation
-* Subset the merged data
+- Reading column names from the merged data set
+- Create vector definning ID, mean and standard deviation
+- Subset the merged data
 4. Using descriptive activity names to name the activities in the data set
 5. Appropriately labeling the data set with descriptive variable names
 6. Creating an independent tidy data set with the average of each variable for each activity and each subject
-* Making a tidy data set
-* Writing the tidy data set in txt file.
+- Making a tidy data set
+- Writing the tidy data set in txt file.
