@@ -35,3 +35,10 @@ The script "run_analysis.R" perform 6 following steps:
 
 - Making a tidy data set
 - Writing the tidy data set in txt file.
+
+## The variables
+
+X_Train, Y_Train, X_Test, Y_Test, Subject_Train and Subject_Test contain the data from the downloaded files.
+AllinOne is the merged data (train and test).
+
+
