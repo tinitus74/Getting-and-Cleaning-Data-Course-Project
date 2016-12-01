@@ -12,13 +12,14 @@ The script "run_analysis.R" perform 6 following steps:
 1. Download and unzip the file mentioned in the previous section. The file is saved in a directory "data" which is created inside the work space of the user.  
 
 2. Merging the training and the test data sets to create one data set. This include:
-* Reading files contained inside the unzip directory
-* Reading trainings tables
-* Reading testing tables
-* Reading feature file 
-* Reading activity labels file
-* Assigning column names to the tables taking into account the features file 
-* Merging all data in one set
+
+** Reading files contained inside the unzip directory
+** Reading trainings tables
+** Reading testing tables
+** Reading feature file 
+** Reading activity labels file
+** Assigning column names to the tables taking into account the features file 
+** Merging all data in one set
 
 3. Extracting only the measurements on the mean and standard deviation for each measurement. This include:
 * Reading column names from the merged data set
